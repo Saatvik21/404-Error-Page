@@ -99,32 +99,37 @@ footer {
 
 @media (max-width: 768px) {
   img {
-    left: 25%;
+    left:1.5rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
   .heading-text {
-    left: 5.5rem;
+    left: 5rem;
     top: 40rem;
   }
   .body-info {
     width: 30.1rem;
-    left: 5.5rem;
+    left: 5rem;
     top: 53rem;
   }
 
   button {
-    left: 5.5rem;
+    left: 5rem;
     top: 63rem;
   }
   footer {
     position: relative;
-    left: 10vw;
+    left: 8vw;
     bottom: 1rem;
     top: 45rem;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   footer {
-    left: 50vw;
+    display:flex;
+    align-items: center;
+    left:8rem;
   }
 }
